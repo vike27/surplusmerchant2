@@ -2,56 +2,51 @@
   <div class="container">
     
     <div class="four columns">
-      <%= image_tag "spree/fancy/logo-white.png", :alt => "Spree Demo Theme", :id => "footer-logo" %>
+      <%= image_tag "spree/fancy/logo-white2.png", :alt => "Spree Demo Theme", :id => "footer-logo" %>
       <br>
       <br>
-      <div class="phone">
-        <a href="callto:012341234567">01-234-1234-567</a>
-        </div>
-      <br>
-      <div class="email">
-        <a href="mailto:demo@spreecommerce.com">demo@spreecommerce.com</a>
+      <div class="social-links">
+        <%= link_to image_tag('spree/fancy/mail-white.png', id: 'blah', class: 'footer-img', alt: 'About'), 'contact_path' %>
+        <%= link_to image_tag('spree/fancy/facebook-white.png', id: 'blah', class: 'footer-img', alt: 'About'), 'https://www.facebook.com/surplusmerchant' %>
+        <%= link_to image_tag('spree/fancy/twitter-white.png', id: 'blah', class: 'footer-img', alt: 'About'), 'https://twitter.com/surplusmerchant' %>
       </div>
-      <br>
+      </br>
+      <div class="email">
+        <a href="mailto:demo@spreecommerce.com">hello@surplusmerchant.com</a>
+      </div>
       <div class="address">
-        Spree Demo Store 01
-        <br>
-        Washington DC, USA
+        Canoga Park CA 91303 USA
       </div>
     </div>
     
     <div class="four columns">
-      <h5>Our Best Offers</h5>
+      <h5>Sell To Us</h5>
       <ul>
+        <li><a href="/suppliers">Sell To Us</a></li>
+        <li><a href="/distribution">Distribution Partnerships</a></li>
         <li><a href="/products">New Products</a></li>
         <li><a href="/products">Top Sellers</a></li>
-        <li><a href="/products">Specials</a></li>
-        <li><a href="/products">Manufacturers</a></li>
-        <li><a href="/products">Suppliers</a></li>
-        <li><a href="/products">Service</a></li>        
+        <li><a href="/manufacturers">Manufacturers</a></li>
+        <li><a href="/services">Service</a></li>        
       </ul>
     </div>
     
     <div class="four columns">
       <h5>Regular Services</h5>
       <ul>
-        <li><a href="/products">Contact</a></li>
-        <li><a href="/products">Shipping Info</a></li>
-        <li><a href="/products">Returns</a></li>
-        <li><a href="/products">F.A.Q.</a></li>
-        <li><a href="/products">Size Chart</a></li>
-        <li><a href="/products">Personal Shopper</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/shipping">Shipping Info</a></li>
+        <li><a href="/pickup">Pick-up</a></li>
+        <li><a href="/returns">Returns</a></li>
+        <li><a href="/faq">F.A.Q.</a></li>
       </ul>
     </div>
     
     <div class="four columns">
-      <h5>Important info</h5>
+      <h5>Request A Product</h5>
       <p>
-        This website is <strong>NOT</strong> a real store, 
-        it's a fully working demo application for 
-        <a href="http://spreecommerce.com" target="_blank">Spree Commerce</a>. 
-        Please feel free to play around, but don't submit 
-        any information you would not consider public!
+        We are adding new products everyday. Give us a call if there is something you are looking for and we'll work to find it for you at our unbeatable used & surplus prices. 
       </p>
     </div>
     

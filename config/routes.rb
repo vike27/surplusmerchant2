@@ -6,6 +6,25 @@ Surplusmerchant2::Application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   mount Spree::Core::Engine, :at => '/'
+
+  Spree::Core::Engine.routes.draw do
+
+  get "/contact" => "pages#contact"
+  get "/about" => "pages#about"
+  get "/suppliers" => "pages#suppliers"
+  get "/distribution" => "pages#distribution"
+  get "/faq" => "pages#faq"
+  get "/manufacturers" => "pages#manufacturers"
+  get "/returns" => "pages#returns"
+  get "/services" => "pages#services"
+  get "/shipping" => "pages#shipping"
+  get "/pickup" => "pages#pickup"
+
+
+  end
+
+
+  
         
     
   # The priority is based upon order of creation: first created -> highest priority.
