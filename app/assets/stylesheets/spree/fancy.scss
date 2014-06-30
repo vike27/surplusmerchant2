@@ -12,10 +12,10 @@
 @import 'spree/fancy/variables';
 @import 'spree/fancy/variables_override';
 
-@import 'spree/fancy/shared/typography';
-@import 'spree/fancy/shared/forms';
-@import 'spree/fancy/shared/layout';
-@import 'spree/fancy/shared/tables';
+@import 'spree/fancy/shared/_typography';
+@import 'spree/fancy/shared/_forms';
+@import 'spree/fancy/shared/_layout';
+@import 'spree/fancy/shared/_tables';
 
 @import 'spree/fancy/components/slider';
 @import 'spree/fancy/components/product_item';
